@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<efcore context-namespace="beadando" namespace="beadando" p1:name="cnbeadando" p1:Guid="b5a9561f-d436-4a8e-bb1a-912dd64fb751" xmlns:p1="http://devart.com/schemas/EntityDeveloper/1.0">
+  <class name="ruhák" entity-set="ruháks" p1:Guid="0c978be9-02a1-4181-9474-6f00b53c73f1">
+    <id name="ruha" type="String" p1:ValidateRequired="true" p1:Guid="a34a2bc7-9473-4a5a-b329-97a0a0ae9d14">
+      <column name="" />
+    </id>
+    <property name="jelleg" type="Int32" p1:ValidateRequired="true" p1:Guid="3d2abbc0-3beb-4841-b217-d01b9f1a50fa">
+      <column name="" />
+    </property>
+  </class>
+  <class name="tipus" entity-set="tipus" p1:Guid="a3324933-e5df-4b69-b540-593f89ead833">
+    <id name="id" type="Int32" p1:ValidateRequired="true" p1:Guid="6c8c1f71-d27b-4bce-99d6-b490b6f162ac">
+      <column name="" />
+    </id>
+    <property name="típus" type="Int32" p1:ValidateRequired="true" p1:Guid="781b0f94-79f0-4c26-9dc7-fec1a8ac5195">
+      <column name="" />
+    </property>
+    <property name="nem" type="String" p1:ValidateRequired="true" p1:Guid="6b68e2be-e50c-436f-aede-b25df43e5a46">
+      <column name="" />
+    </property>
+  </class>
+  <class name="választott" entity-set="választotts" p1:Guid="90e32054-4ee6-45ec-8079-64a0ca202f56">
+    <id name="id" type="Int32" p1:ValidateRequired="true" p1:Guid="bed07d00-dbff-4759-9f98-643d8c5cd940">
+      <column name="" />
+    </id>
+    <property name="nadrág" type="String" p1:ValidateRequired="true" p1:Guid="3b2ab6ca-33ca-4abc-846f-06ee820ccb07">
+      <column name="" />
+    </property>
+    <property name="felső" type="String" p1:ValidateRequired="true" p1:Guid="11ae102f-4107-4afd-8714-6f33a1b4e31e">
+      <column name="" />
+    </property>
+    <property name="cipő" type="String" p1:ValidateRequired="true" p1:Guid="9bbe2dce-56df-4aad-8a7f-33bff12bf3ab">
+      <column name="" />
+    </property>
+  </class>
+  <associations>
+    <association name="tipus_ruhák" cardinality="OneToMany" p1:Guid="f6977d09-027d-433e-8205-9f8bced80f8b">
+      <end1 multiplicity="One" name="tipus" class="ruhák" relation-class="tipus" constrained="True" lazy="False" p1:Guid="059e3c36-2e2c-4798-accc-532e2487baa7">
+        <property name="id" />
+      </end1>
+      <end2 multiplicity="Many" name="ruháks" class="tipus" relation-class="ruhák" lazy="False" p1:Guid="14524a84-1cd7-4979-986d-9ebcdecafe6e">
+        <property name="jelleg" />
+      </end2>
+    </association>
+  </associations>
+</efcore>

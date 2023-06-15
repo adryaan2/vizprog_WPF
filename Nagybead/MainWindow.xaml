@@ -1,0 +1,124 @@
+﻿<Window x:Class="Nagybead.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nagybead"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="897">
+    <DockPanel>
+        <Grid Height="100" DockPanel.Dock="Top">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3E7C7B" Offset="0.01"/>
+                    <GradientStop Color="#FF0AF1ED" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnoi" Content="Női" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="90" Height="40" FontWeight="Bold" FontSize="15" Click="btnoi_Click"/>
+            <Button x:Name="btferfi" Content="Férfi" HorizontalAlignment="Left" Margin="110,10,0,0" Width="90" Height="40" VerticalAlignment="Top" FontWeight="Bold" FontSize="15" Click="btferfi_Click"/>
+            <Button x:Name="btfelso" Content="Felső" HorizontalAlignment="Left" Margin="10,65,0,0"  Width="70" Height="30" VerticalAlignment="Top"  FontStyle="Italic" Click="btfelso_Click" />
+            <Button x:Name="btnadrag" Content="Nadrág" HorizontalAlignment="Left" Margin="99,65,0,0" VerticalAlignment="Top" Width="70" Height="30" FontStyle="Italic" Click="btnadrag_Click"/>
+            <Button x:Name="btcipo" Content="Cipő" HorizontalAlignment="Left" Margin="191,65,0,0" VerticalAlignment="Top" Width="70" Height="30" FontStyle="Italic" Click="btcipo_Click"/>
+            <Label Content="Összeállított outfitek" Grid.Column="1" HorizontalAlignment="Left" Margin="224,69,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="16" FontWeight="SemiBold"/>
+
+
+        </Grid>
+        <Grid Width="600" x:Name="válGrid">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3E7C7B" Offset="1"/>
+                    <GradientStop Color="#FF0AF1ED"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="sor1"/>
+                <RowDefinition x:Name="sor2"/>
+                <RowDefinition x:Name="sor3"/>
+            </Grid.RowDefinitions>
+            <Grid.Resources>
+                <Style TargetType="{x:Type Image}">
+                    <Setter Property="HorizontalAlignment" Value="Stretch" />
+                    <Setter Property="VerticalAlignment" Value="Stretch" />
+                    <Setter Property="Margin" Value="5" />
+                </Style>
+            </Grid.Resources>
+            <Image x:Name="im10" Grid.Row="0" Grid.Column="0" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im11" Grid.Row="0" Grid.Column="1" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im12" Grid.Row="0" Grid.Column="2" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im13" Grid.Row="0" Grid.Column="3" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im20" Grid.Row="1" Grid.Column="0" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im21" Grid.Row="1" Grid.Column="1" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im22" Grid.Row="1" Grid.Column="2" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im23" Grid.Row="1" Grid.Column="3" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im30" Grid.Row="2" Grid.Column="0" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im31" Grid.Row="2" Grid.Column="1" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im32" Grid.Row="2" Grid.Column="2" MouseLeftButtonDown="katt"/>
+            <Image x:Name="im33" Grid.Row="2" Grid.Column="3" MouseLeftButtonDown="katt"/>
+        </Grid>
+        <DockPanel HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  >
+            <DockPanel.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3E7C7B"/>
+                    <GradientStop Color="#FF0AF1ED" Offset="1"/>
+                </LinearGradientBrush>
+            </DockPanel.Background>
+
+                <Grid Width="auto" DockPanel.Dock="Right" x:Name="gridVálaszt">
+                    <Grid.Background>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF3E7C7B" Offset="0.01"/>
+                            <GradientStop Color="#FF0AF1ED" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Grid.Background>
+                    <Grid.Resources>
+                        <Style TargetType="{x:Type Image}">
+                            <Setter Property="HorizontalAlignment" Value="Stretch" />
+                            <Setter Property="VerticalAlignment" Value="Stretch" />
+                            <Setter Property="Margin" Value="5" />
+                        </Style>
+                    </Grid.Resources>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Image x:Name="v1f" Grid.Row="0" Grid.Column="0" />
+                    <Image x:Name="v1n" Grid.Row="0" Grid.Column="1" />
+                    <Image x:Name="v1c" Grid.Row="0" Grid.Column="2" />
+                    <Button Content="Töröl" x:Name="btntorol1" Grid.Row="0" Grid.Column="3" Height="40" Visibility="Hidden" Click="btntorol_Click"/>
+
+                    <Image x:Name="v2f" Grid.Row="1" Grid.Column="0"/>
+                    <Image x:Name="v2n" Grid.Row="1" Grid.Column="1"/>
+                    <Image x:Name="v2c" Grid.Row="1" Grid.Column="2"/>
+                    <Button Content="Töröl" x:Name="btntorol2" Grid.Row="1" Grid.Column="3" Height="40" Visibility="Hidden" Click="btntorol_Click"/>
+
+                    <Image x:Name="v3f" Grid.Row="2" Grid.Column="0"/>
+                    <Image x:Name="v3n" Grid.Row="2" Grid.Column="1"/>
+                    <Image x:Name="v3c" Grid.Row="2" Grid.Column="2"/>
+                    <Button Content="Töröl" x:Name="btntorol3" Grid.Row="2" Grid.Column="3" Height="40" Visibility="Hidden" Click="btntorol_Click"/>
+                </Grid>
+
+
+        </DockPanel>
+
+    </DockPanel>
+
+
+
+</Window>

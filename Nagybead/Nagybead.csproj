@@ -1,0 +1,331 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MainWindow_miutan_elrontottam.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ferfic\ffc1.jpg" />
+    <None Remove="ferfic\ffc10.jpg" />
+    <None Remove="ferfic\ffc11.jpg" />
+    <None Remove="ferfic\ffc12.jpg" />
+    <None Remove="ferfic\ffc13.jpg" />
+    <None Remove="ferfic\ffc14.jpg" />
+    <None Remove="ferfic\ffc2.jpg" />
+    <None Remove="ferfic\ffc3.jpg" />
+    <None Remove="ferfic\ffc4.jpg" />
+    <None Remove="ferfic\ffc5.jpg" />
+    <None Remove="ferfic\ffc6.jpg" />
+    <None Remove="ferfic\ffc7.jpg" />
+    <None Remove="ferfic\ffc8.jpg" />
+    <None Remove="ferfic\ffc9.jpg" />
+    <None Remove="ferfif\ffif1.jpg" />
+    <None Remove="ferfif\ffif10.jpg" />
+    <None Remove="ferfif\ffif11.jpg" />
+    <None Remove="ferfif\ffif12.jpg" />
+    <None Remove="ferfif\ffif2.jpg" />
+    <None Remove="ferfif\ffif3.jpg" />
+    <None Remove="ferfif\ffif4.jpg" />
+    <None Remove="ferfif\ffif5.jpg" />
+    <None Remove="ferfif\ffif6.jpg" />
+    <None Remove="ferfif\ffif7.jpg" />
+    <None Remove="ferfif\ffif8.jpg" />
+    <None Remove="ferfif\ffif9.jpg" />
+    <None Remove="ferfin\ffin1.jpg" />
+    <None Remove="ferfin\ffin10.gif" />
+    <None Remove="ferfin\ffin11.gif" />
+    <None Remove="ferfin\ffin12.gif" />
+    <None Remove="ferfin\ffin13.gif" />
+    <None Remove="ferfin\ffin2.jpg" />
+    <None Remove="ferfin\ffin3.jpg" />
+    <None Remove="ferfin\ffin4.jpg" />
+    <None Remove="ferfin\ffin5.jpg" />
+    <None Remove="ferfin\ffin6.gif" />
+    <None Remove="ferfin\ffin7.gif" />
+    <None Remove="ferfin\ffin8.gif" />
+    <None Remove="ferfin\ffin9.gif" />
+    <None Remove="noic\noic1.jpg" />
+    <None Remove="noic\noic10.jpg" />
+    <None Remove="noic\noic11.jpg" />
+    <None Remove="noic\noic12.jpg" />
+    <None Remove="noic\noic13.jpg" />
+    <None Remove="noic\noic2.jpg" />
+    <None Remove="noic\noic3.jpg" />
+    <None Remove="noic\noic4.jpg" />
+    <None Remove="noic\noic5.jpg" />
+    <None Remove="noic\noic6.jpg" />
+    <None Remove="noic\noic7.jpg" />
+    <None Remove="noic\noic8.jpg" />
+    <None Remove="noic\noic9.jpg" />
+    <None Remove="noif\noif1.jpg" />
+    <None Remove="noif\noif10.jpg" />
+    <None Remove="noif\noif11.jpg" />
+    <None Remove="noif\noif12.jpg" />
+    <None Remove="noif\noif2.jpg" />
+    <None Remove="noif\noif3.jpg" />
+    <None Remove="noif\noif4.jpg" />
+    <None Remove="noif\noif5.jpg" />
+    <None Remove="noif\noif6.jpg" />
+    <None Remove="noif\noif7.jpg" />
+    <None Remove="noif\noif8.jpg" />
+    <None Remove="noif\noif9.jpg" />
+    <None Remove="noin\noin1.jpg" />
+    <None Remove="noin\noin10.gif" />
+    <None Remove="noin\noin11.gif" />
+    <None Remove="noin\noin12.gif" />
+    <None Remove="noin\noin2.jpg" />
+    <None Remove="noin\noin3.jpg" />
+    <None Remove="noin\noin4.jpg" />
+    <None Remove="noin\noin5.jpg" />
+    <None Remove="noin\noin6.jpg" />
+    <None Remove="noin\noin7.gif" />
+    <None Remove="noin\noin8.gif" />
+    <None Remove="noin\noin9.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ferfic\ffc1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc14.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfic\ffc9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfif\ffif9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin10.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin11.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin12.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin13.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin6.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin7.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin8.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="ferfin\ffin9.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic13.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noic\noic9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif10.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif11.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif12.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif7.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif8.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noif\noif9.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin1.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin10.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin11.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin12.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin2.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin3.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin4.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin5.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin6.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin7.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin8.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="noin\noin9.gif">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
